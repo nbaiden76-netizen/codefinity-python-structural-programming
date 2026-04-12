@@ -11,6 +11,7 @@ def process_data(data):
         print("Data list is too short.")
     else:
         print(f"Result: {result}")
+    # Rememeber finally prints regardless or the error 
     finally:
         print("Data processing attempted.")
 
